@@ -1,0 +1,15 @@
+{
+  "name": "nft-music-collection-generator",
+  "version": "1.0.0",
+  "description": "Generate thousands of unique music versions alongside their metadata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Cosialls",
+  "license": "ISC",
+  "dependencies": {
+    "audioconcat": "^0.1.4",
+    "express": "^4.18.1"
+  }
+}
