@@ -9,7 +9,7 @@
   "author": "Thomas Cosialls",
   "license": "ISC",
   "dependencies": {
-    "audioconcat": "^0.1.4",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "wav-concat": "^1.0.0"
   }
 }

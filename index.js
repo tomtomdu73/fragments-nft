@@ -1,10 +1,7 @@
-const { layersSetup } = require("./src/main");
-
 const basePath = process.cwd();
-const { startGeneration, generateSounds, buildSetup } = require(`${basePath}/src/main.js`);
+const { startGeneration, buildSetup } = require(`${basePath}/src/main.js`);
 
 (() => {
+    buildSetup();
     startGeneration();
-    // buildSetup();
-    //generateSounds();
 })();
